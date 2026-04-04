@@ -1,0 +1,616 @@
+{
+  "business": {
+    "name": "Legacy Dentist",
+    "phone": "555-den-r94",
+    "category": "dentist",
+    "city": "Scottsdale",
+    "state": "AZ"
+  },
+  "design": {
+    "preset": {
+      "id": "dentist-heritage-craft",
+      "categoryGroup": "dentist",
+      "name": "Heritage Craft",
+      "recipeFile": "dentist/heritage-craft.astro",
+      "colors": {
+        "primary": "#3A7A8B",
+        "primaryDark": "#234953",
+        "primaryLight": "#bad0d6",
+        "secondary": "#316876",
+        "accent": "#3A7A8B",
+        "background": "#F5F2ED",
+        "backgroundAlt": "#316876",
+        "surface": "#EDEAE4",
+        "text": "#1A1510",
+        "textLight": "#4A4540",
+        "textOnDark": "#F5F2ED",
+        "border": "#D5CEBC"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "600",
+        "bodyFont": "Libre Franklin",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "4px",
+        "buttonRadius": "4px",
+        "cardRadius": "6px",
+        "shadowStyle": "subtle"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "generous"
+      }
+    },
+    "recipeId": "dentist/heritage-craft"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Scottsdale's Trusted Dental Care",
+      "heroSubline": "Providing exceptional dental services to Scottsdale and the Phoenix metro area. Your comfort and oral health are our top priorities.",
+      "aboutTitle": "About Legacy Dentist",
+      "aboutText": [
+        "Since 2012, Legacy Dentist has been serving Scottsdale and surrounding communities with a commitment to excellence in dental care. Our journey began with a simple mission: to provide personalized, compassionate dentistry that makes every patient feel at home.",
+        "We believe in taking the time to understand your unique needs and concerns. Our team stays current with the latest dental advancements to ensure you receive the highest standard of care in a relaxed, modern environment.",
+        "As part of the Scottsdale community, we're proud to support local schools and organizations. From Old Town to North Scottsdale, we're dedicated to helping our neighbors maintain healthy, beautiful smiles."
+      ],
+      "valueProps": [
+        {
+          "title": "Experienced Team",
+          "description": "Our dentists bring decades of combined experience serving Arizona families, with specialized knowledge of local oral health needs."
+        },
+        {
+          "title": "Comfort First",
+          "description": "We've designed our Scottsdale office with your relaxation in mind, from soothing decor to the latest pain management techniques."
+        },
+        {
+          "title": "Preventive Focus",
+          "description": "We emphasize education and early intervention, especially important in our dry climate that can impact oral health."
+        },
+        {
+          "title": "Flexible Scheduling",
+          "description": "We offer early morning, evening, and weekend appointments to accommodate our patients' busy Valley lifestyles."
+        }
+      ],
+      "ctaHeadline": "Schedule Your Visit Today",
+      "ctaSubline": "Join the many Scottsdale families who trust us with their dental care. New patients receive a complimentary oral health assessment."
+    },
+    "services": [
+      {
+        "slug": "preventive-dentistry",
+        "name": "Preventive Dentistry",
+        "shortDescription": "Comprehensive care to protect your smile from Arizona's unique dental challenges.",
+        "description": "Our preventive dentistry services are tailored to address the specific oral health concerns of Scottsdale residents. The dry desert climate and high mineral content in our water can contribute to unique dental issues, making regular check-ups especially important.\n\nWe provide thorough cleanings that remove the stubborn plaque buildup common in arid environments. Our exams include oral cancer screenings, particularly crucial for our sun-exposed patients. We also offer personalized fluoride treatments to combat the effects of hard water on tooth enamel.\n\nFor children, we focus on early cavity detection and sealants to protect developing teeth. Our team will work with you to create a preventive plan that fits your lifestyle and keeps your smile healthy year-round.",
+        "process": [
+          "Step 1: Comprehensive oral examination and digital X-rays",
+          "Step 2: Professional cleaning with special attention to desert climate concerns",
+          "Step 3: Personalized oral health assessment and risk evaluation",
+          "Step 4: Customized prevention plan with recall schedule"
+        ],
+        "benefits": [
+          "Reduces risk of cavities and gum disease",
+          "Early detection of oral health issues",
+          "Professional cleaning removes stubborn desert dust stains",
+          "Personalized advice for Arizona-specific dental care"
+        ],
+        "faq": [
+          {
+            "question": "How often should I visit for check-ups in Arizona's climate?",
+            "answer": "We typically recommend every 6 months, but may suggest more frequent visits if you're experiencing dry mouth or other climate-related concerns."
+          },
+          {
+            "question": "Do you offer special services for seniors?",
+            "answer": "Yes, we provide tailored preventive care addressing age-related concerns common in our active retirement communities."
+          },
+          {
+            "question": "What's different about cleanings in the desert?",
+            "answer": "We pay special attention to removing fine dust particles that can accumulate and contribute to staining and plaque buildup."
+          }
+        ]
+      },
+      {
+        "slug": "cosmetic-dentistry",
+        "name": "Cosmetic Dentistry",
+        "shortDescription": "Enhance your smile with treatments designed for Scottsdale's active lifestyle.",
+        "description": "In image-conscious Scottsdale, your smile is your signature. Our cosmetic dentistry services help you achieve the bright, confident look that matches our sunny Arizona lifestyle. From subtle enhancements to complete smile makeovers, we offer solutions that withstand our intense UV exposure and dry climate.\n\nWe specialize in porcelain veneers that resist staining from coffee and red wine - favorites in Old Town's vibrant dining scene. Our teeth whitening treatments are formulated to combat the discoloration caused by sun exposure and desert dust. For golfers and outdoor enthusiasts, we provide durable bonding solutions that can withstand active lifestyles.\n\nEvery cosmetic treatment begins with a digital smile design consultation, allowing you to preview your results. We use high-quality materials that blend seamlessly with your natural teeth and stand up to our harsh climate.",
+        "process": [
+          "Step 1: Smile analysis and digital imaging",
+          "Step 2: Treatment planning session",
+          "Step 3: Preparation and fabrication (if needed)",
+          "Step 4: Final placement and finishing"
+        ],
+        "benefits": [
+          "Customized to complement facial features",
+          "Uses materials resistant to desert climate effects",
+          "Enhances confidence for social and professional settings",
+          "Long-lasting results with proper care"
+        ],
+        "faq": [
+          {
+            "question": "How long do cosmetic treatments last in our climate?",
+            "answer": "With proper care, most last 10-15 years. We use materials specifically chosen for durability in dry, sunny conditions."
+          },
+          {
+            "question": "Can cosmetic dentistry help with sun-damaged teeth?",
+            "answer": "Absolutely. We can address UV-related discoloration and surface changes with various treatments tailored to your needs."
+          },
+          {
+            "question": "Do you offer quick treatments for special events?",
+            "answer": "Yes, we provide same-day whitening and temporary solutions for those important Scottsdale social occasions."
+          }
+        ]
+      },
+      {
+        "slug": "dental-implants",
+        "name": "Dental Implants",
+        "shortDescription": "Permanent tooth replacement for Scottsdale's active adults.",
+        "description": "Dental implants offer a stable, long-term solution for missing teeth that can withstand Arizona's active lifestyle. Unlike traditional dentures that may shift during outdoor activities or golf swings, implants provide the security and function of natural teeth.\n\nOur implant process begins with advanced 3D imaging to assess bone density, particularly important for our mature patients in retirement communities. We use high-quality titanium implants that integrate well with bone, even in patients affected by Arizona's lower humidity levels.\n\nFor patients concerned about recovery time, we offer immediate load implants when appropriate, allowing you to return quickly to your Scottsdale activities. Our team has extensive experience working with patients who have medical considerations common in our community, including those managing diabetes or osteoporosis.",
+        "process": [
+          "Step 1: Comprehensive exam and 3D imaging",
+          "Step 2: Treatment planning and preparation",
+          "Step 3: Implant placement procedure",
+          "Step 4: Healing and final restoration"
+        ],
+        "benefits": [
+          "Restores full chewing function for Arizona cuisine",
+          "Prevents bone loss common with missing teeth",
+          "No slipping or discomfort during physical activities",
+          "Natural appearance that blends with your smile"
+        ],
+        "faq": [
+          {
+            "question": "How does the desert climate affect implant healing?",
+            "answer": "We provide specialized post-op instructions addressing dry mouth concerns and hydration to promote optimal healing."
+          },
+          {
+            "question": "Are implants suitable for older active adults?",
+            "answer": "Yes, we've successfully placed implants for many patients in our 55+ communities who maintain active lifestyles."
+          },
+          {
+            "question": "Can implants replace multiple missing teeth?",
+            "answer": "Absolutely. We offer solutions ranging from single tooth replacement to full arch restoration."
+          }
+        ]
+      },
+      {
+        "slug": "root-canal-therapy",
+        "name": "Root Canal Therapy",
+        "shortDescription": "Gentle, effective treatment to save damaged teeth and relieve pain.",
+        "description": "When tooth pain strikes in the middle of our scorching summers, you need prompt, compassionate care. Our root canal therapy focuses on preserving your natural tooth while eliminating discomfort - all with minimal disruption to your busy Scottsdale schedule.\n\nWe use advanced rotary endodontic technology to make the procedure faster and more comfortable than traditional methods. Our team understands the anxiety many patients feel about root canals, so we prioritize clear communication and gentle techniques throughout the process.\n\nAfter treatment, we provide detailed instructions for recovery in our dry climate, including hydration tips and pain management strategies. For patients with sensitive teeth exacerbated by temperature extremes, we offer special temporary crowns while your permanent restoration is being crafted.",
+        "process": [
+          "Step 1: Diagnosis and pain management",
+          "Step 2: Removal of infected pulp",
+          "Step 3: Cleaning and shaping root canals",
+          "Step 4: Filling and sealing the tooth"
+        ],
+        "benefits": [
+          "Saves your natural tooth from extraction",
+          "Relieves severe tooth pain",
+          "Prevents spread of infection",
+          "Restores normal function quickly"
+        ],
+        "faq": [
+          {
+            "question": "How painful is root canal therapy?",
+            "answer": "With modern techniques and anesthesia, most patients report the procedure is no more uncomfortable than a routine filling."
+          },
+          {
+            "question": "Will my tooth be sensitive after treatment?",
+            "answer": "Some temporary sensitivity is normal, especially in our extreme temperatures. We'll provide specific care instructions for our climate."
+          },
+          {
+            "question": "How soon can I return to normal activities?",
+            "answer": "Most patients resume regular activities the same day, though we recommend avoiding strenuous exercise for 24 hours."
+          }
+        ]
+      },
+      {
+        "slug": "pediatric-dentistry",
+        "name": "Pediatric Dentistry",
+        "shortDescription": "Gentle dental care for Scottsdale's youngest smiles.",
+        "description": "At Legacy Dentist, we make dental visits enjoyable for Scottsdale children while addressing the unique oral health needs of growing smiles in our desert climate. Our pediatric services focus on prevention and education, helping families establish healthy habits that last a lifetime.\n\nWe understand the concerns of Arizona parents, from protecting young teeth during sports to managing the effects of dry air on children's oral health. Our office features child-friendly amenities to make visits comfortable, including video goggles for entertainment during cleanings.\n\nFor families in school districts across Scottsdale and the East Valley, we offer convenient after-school appointments and comprehensive exams that meet school dental requirements. Our team is experienced in working with children of all ages and comfort levels, including those with special needs.",
+        "process": [
+          "Step 1: Child-friendly introduction to the dental office",
+          "Step 2: Gentle examination and cleaning",
+          "Step 3: Age-appropriate oral health education",
+          "Step 4: Personalized prevention plan for home care"
+        ],
+        "benefits": [
+          "Early detection of developmental concerns",
+          "Positive dental experiences from the start",
+          "Customized advice for Arizona families",
+          "Convenient scheduling around school activities"
+        ],
+        "faq": [
+          {
+            "question": "When should my child first visit the dentist?",
+            "answer": "We recommend bringing children by their first birthday or when the first tooth appears - especially important in our dry climate."
+          },
+          {
+            "question": "How can I protect my child's teeth during sports?",
+            "answer": "We offer custom-fitted mouthguards for young athletes participating in Scottsdale's many youth sports programs."
+          },
+          {
+            "question": "Do you treat children with dental anxiety?",
+            "answer": "Absolutely. Our team specializes in gentle approaches to help nervous children feel comfortable and safe."
+          }
+        ]
+      },
+      {
+        "slug": "emergency-dentistry",
+        "name": "Emergency Dentistry",
+        "shortDescription": "Prompt care when dental emergencies disrupt your Scottsdale day.",
+        "description": "Dental emergencies don't wait for convenient times, especially during our busy tourist seasons and special events. We provide same-day emergency care for Scottsdale residents and visitors experiencing sudden dental problems.\n\nWhether it's a cracked tooth from a fall on Camelback Mountain or severe pain keeping you up at night, our team is prepared to handle urgent situations with efficiency and compassion. We maintain emergency appointment slots daily to accommodate sudden needs.\n\nFor patients experiencing trauma during outdoor activities or sports, we offer immediate stabilization to preserve damaged teeth. Our office is equipped to manage pain effectively and provide temporary solutions until permanent repairs can be made. We coordinate with local specialists when needed to ensure comprehensive emergency care.",
+        "process": [
+          "Step 1: Immediate pain assessment and relief",
+          "Step 2: Diagnosis with digital imaging when needed",
+          "Step 3: Temporary stabilization or treatment",
+          "Step 4: Follow-up plan for complete restoration"
+        ],
+        "benefits": [
+          "Same-day appointments for urgent needs",
+          "Experienced trauma care for sports injuries",
+          "Pain management solutions",
+          "Coordination with specialists when required"
+        ],
+        "faq": [
+          {
+            "question": "What constitutes a dental emergency?",
+            "answer": "Severe pain, knocked-out teeth, significant bleeding, or swelling are all reasons to seek immediate care in our Scottsdale office."
+          },
+          {
+            "question": "Do you handle after-hours emergencies?",
+            "answer": "We provide 24/7 phone consultation for established patients with guidance on managing emergencies until we can see you."
+          },
+          {
+            "question": "Can you repair broken dentures urgently?",
+            "answer": "Yes, we offer same-day denture repairs to get you back to normal function quickly."
+          }
+        ]
+      },
+      {
+        "slug": "senior-dentistry",
+        "name": "Senior Dentistry",
+        "shortDescription": "Specialized dental care for Scottsdale's active older adults.",
+        "description": "As we age in Arizona's sunny climate, our dental needs evolve. Our senior dentistry services address the unique challenges faced by older adults in Scottsdale's retirement communities and active adult neighborhoods.\n\nWe focus on preserving natural teeth when possible while providing comfortable solutions for age-related changes. Many of our patients in communities like DC Ranch and Gainey Ranch appreciate our gentle approach to treating dry mouth - a common concern in our arid environment.\n\nFor those considering dentures, we offer modern implant-supported options that provide stability during golf games and social activities. Our team understands the medical considerations common among seniors and coordinates care with physicians when needed. We also provide convenient transportation assistance for patients who need help getting to our office.",
+        "process": [
+          "Step 1: Comprehensive oral health assessment",
+          "Step 2: Discussion of age-related concerns and goals",
+          "Step 3: Personalized treatment planning",
+          "Step 4: Gentle implementation with follow-up care"
+        ],
+        "benefits": [
+          "Addresses medication-related dry mouth",
+          "Solutions for worn or sensitive teeth",
+          "Denture alternatives that feel natural",
+          "Coordination with overall health needs"
+        ],
+        "faq": [
+          {
+            "question": "How can I manage dry mouth in our climate?",
+            "answer": "We provide specialized recommendations for hydration and products that help combat this common Arizona concern."
+          },
+          {
+            "question": "Are dental implants safe for seniors?",
+            "answer": "Yes, we've successfully placed implants for patients well into their 80s and 90s with proper evaluation."
+          },
+          {
+            "question": "Do you accept Medicare Advantage plans?",
+            "answer": "We work with many Medicare dental plans and can help you understand your coverage options."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Robert K.",
+        "rating": 5,
+        "service": "Dental Implants",
+        "text": "After years of struggling with dentures that slipped during golf, Dr. Chen suggested implants. The entire process was smoother than I expected, and now I can enjoy my weekly games at Troon North without worrying about my teeth. The team even scheduled my procedures around my winter visitors.",
+        "date": "2025-01-15"
+      },
+      {
+        "name": "Megan T.",
+        "rating": 5,
+        "service": "Pediatric Dentistry",
+        "text": "My daughter used to dread dentist visits until we found Legacy Dentist. The staff made her first filling experience so positive with their patience and the fun video goggles. They even gave us great tips for keeping her teeth healthy during summer camps in our dry heat.",
+        "date": "2024-11-22"
+      },
+      {
+        "name": "James and Linda W.",
+        "rating": 5,
+        "service": "Cosmetic Dentistry",
+        "text": "We wanted to refresh our smiles before our 50th anniversary party at The Phoenician. The veneers look so natural - no one could tell we'd had work done. The team worked with our timeline perfectly and the results exceeded our expectations.",
+        "date": "2024-10-05"
+      },
+      {
+        "name": "Carlos M.",
+        "rating": 5,
+        "service": "Emergency Dentistry",
+        "text": "When I chipped a tooth right before an important client meeting at Scottsdale Quarter, Legacy got me in immediately. They fixed it so well my client never noticed. Their emergency care saved both my smile and my business presentation.",
+        "date": "2025-03-10"
+      },
+      {
+        "name": "Patricia R.",
+        "rating": 5,
+        "service": "Senior Dentistry",
+        "text": "As a snowbird splitting time between Scottsdale and Chicago, I needed a dentist who understood my unique needs. The dry mouth solutions they provided have made summers here much more comfortable. I appreciate how they coordinate with my doctors back home.",
+        "date": "2024-09-18"
+      },
+      {
+        "name": "David S.",
+        "rating": 5,
+        "service": "Root Canal Therapy",
+        "text": "I put off my root canal for months fearing the pain, but the team at Legacy made it completely manageable. Their numbing techniques were excellent, and the recovery instructions accounted for our extreme temperatures. Back hiking Pinnacle Peak just days later.",
+        "date": "2025-02-28"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Scottsdale Dentist | Legacy Dentist | General Dentistry",
+        "description": "Trusted"
+      }
+    },
+    "serviceAreas": [
+      {
+        "city": "Phoenix",
+        "slug": "phoenix-az",
+        "state": "AZ",
+        "content": "Legacy Dentist proudly serves the vibrant community of Phoenix, Arizona, with top-tier dental care tailored to your needs. With a population of around 1.65 million, Phoenix is a bustling city known for its 1960s-70s block construction homes and scorching summer temperatures that often exceed 110°F. Our team understands the unique challenges of living in such a climate, including dry mouth and dehydration, which can impact oral health. We offer personalized treatments to keep your smile healthy year-round, whether you're a longtime resident or new to the area.",
+        "localContext": "Phoenix is characterized by its mid-century architecture and extreme desert climate, making hydration and oral care essential.",
+        "nearbyAreas": [
+          "Scottsdale",
+          "Tempe",
+          "Glendale"
+        ]
+      },
+      {
+        "city": "Mesa",
+        "slug": "mesa-az",
+        "state": "AZ",
+        "content": "At Legacy Dentist, we’re proud to serve the residents of Mesa, Arizona, a city with a rich history and a population of approximately 510,000. Mesa’s 1970s-80s stucco homes reflect its growth during that era, and like much of the Valley, it faces extreme summer heat exceeding 110°F. Our dental services cater to families and individuals, addressing common issues like tooth sensitivity exacerbated by temperature fluctuations. We provide comprehensive care, from routine cleanings to advanced treatments, ensuring your smile stays bright despite the desert climate.",
+        "localContext": "Mesa is known for its stucco homes and family-friendly neighborhoods, all set against the backdrop of Arizona's intense heat.",
+        "nearbyAreas": [
+          "Gilbert",
+          "Tempe",
+          "Chandler"
+        ]
+      },
+      {
+        "city": "Chandler",
+        "slug": "chandler-az",
+        "state": "AZ",
+        "content": "Legacy Dentist is thrilled to serve Chandler, Arizona, a thriving city of about 280,000 residents known for its 1990s-2000s planned developments. Chandler’s well-designed communities and bustling tech industry make it a desirable place to live, but the extreme summer heat exceeding 110°F can take a toll on oral health. Our team offers modern dental solutions, including preventive care and cosmetic treatments, to help you maintain a healthy smile. Whether you’re a busy professional or a growing family, we’re here to meet your dental needs.",
+        "localContext": "Chandler’s planned communities and high-tech economy are complemented by the challenges of Arizona's intense desert climate.",
+        "nearbyAreas": [
+          "Gilbert",
+          "Tempe",
+          "Mesa"
+        ]
+      },
+      {
+        "city": "Gilbert",
+        "slug": "gilbert-az",
+        "state": "AZ",
+        "content": "Legacy Dentist is honored to provide exceptional dental care to the residents of Gilbert, Arizona, a rapidly growing city with a population of around 280,000. Gilbert’s newer construction, spanning the 2000s-2020s, reflects its status as one of the fastest-growing towns in the U.S. The extreme summer heat, often exceeding 110°F, can lead to oral health challenges like dry mouth and enamel erosion. Our practice offers tailored treatments to combat these issues, ensuring your smile remains healthy and vibrant in Gilbert’s dynamic environment.",
+        "localContext": "Gilbert’s modern homes and family-oriented vibe are paired with the need for diligent oral care due to the desert climate.",
+        "nearbyAreas": [
+          "Chandler",
+          "Mesa",
+          "Queen Creek"
+        ]
+      },
+      {
+        "city": "Tempe",
+        "slug": "tempe-az",
+        "state": "AZ",
+        "content": "Legacy Dentist is proud to serve Tempe, Arizona, a lively city of about 185,000 residents, home to Arizona State University and a diverse mix of university-area homes. Tempe’s youthful energy and cultural vibrancy are matched by the extreme summer heat, which often exceeds 110°F. Our dental team understands the unique needs of students, faculty, and long-term residents, offering flexible scheduling and treatments tailored to busy lifestyles. From preventive care to emergency services, we’re committed to keeping your smile healthy in Tempe’s vibrant community.",
+        "localContext": "Tempe’s college-town atmosphere and historic neighborhoods thrive despite the challenges of Arizona's scorching summers.",
+        "nearbyAreas": [
+          "Phoenix",
+          "Mesa",
+          "Scottsdale"
+        ]
+      },
+      {
+        "city": "Scottsdale",
+        "slug": "scottsdale-az",
+        "state": "AZ",
+        "content": "Legacy Dentist is proud to call Scottsdale, Arizona, home and is dedicated to serving our local community with exceptional dental care. Known for its upscale resorts, golf courses, and vibrant arts scene, Scottsdale also faces the extreme summer heat common to the Valley, with temperatures often exceeding 110°F. Our practice offers a range of services, from cosmetic dentistry to restorative treatments, designed to meet the needs of Scottsdale’s discerning residents. Whether you’re a longtime local or new to the area, we’re here to help you achieve optimal oral health.",
+        "localContext": "Scottsdale’s luxurious lifestyle and desert climate make specialized dental care a priority for its residents.",
+        "nearbyAreas": [
+          "Phoenix",
+          "Tempe",
+          "Paradise Valley"
+        ]
+      },
+      {
+        "city": "Glendale",
+        "slug": "glendale-az",
+        "state": "AZ",
+        "content": "Legacy Dentist is pleased to extend our services to Glendale, Arizona, a dynamic city with a population of around 250,000. Known for its sports venues and historic downtown, Glendale also experiences the extreme summer heat of the Valley, with temperatures frequently surpassing 110°F. Our dental team is equipped to address the oral health challenges posed by the desert climate, offering everything from routine cleanings to advanced procedures. Whether you’re a sports fan or a longtime resident, we’re committed to keeping your smile in top shape.",
+        "localContext": "Glendale’s mix of historic charm and modern attractions coexists with the demands of Arizona's intense heat.",
+        "nearbyAreas": [
+          "Phoenix",
+          "Peoria",
+          "Avondale"
+        ]
+      },
+      {
+        "city": "Peoria",
+        "slug": "peoria-az",
+        "state": "AZ",
+        "content": "Legacy Dentist is excited to serve the residents of Peoria, Arizona, a thriving city with a population of approximately 190,000. Peoria’s blend of suburban comfort and outdoor recreation makes it a great place to live, though the extreme summer heat—often exceeding 110°F—can impact oral health. Our practice provides comprehensive dental care, from pediatric services to adult treatments, ensuring your family’s smiles stay healthy year-round. Whether you’re enjoying Lake Pleasant or exploring the city, we’re here to support your dental needs.",
+        "localContext": "Peoria’s family-friendly neighborhoods and outdoor activities are balanced by the need for proactive oral care in the desert climate.",
+        "nearbyAreas": [
+          "Glendale",
+          "Surprise",
+          "Sun City"
+        ]
+      },
+      {
+        "city": "Surprise",
+        "slug": "surprise-az",
+        "state": "AZ",
+        "content": "Legacy Dentist is delighted to offer our dental services to Surprise, Arizona, a fast-growing city with a population of around 150,000. Surprise’s master-planned communities and retiree-friendly atmosphere are contrasted by the extreme summer heat, which often exceeds 110°F. Our team specializes in addressing the oral health needs of seniors and families alike, providing gentle, effective treatments to combat the effects of the desert climate. From preventive care to denture solutions, we’re here to keep Surprise residents smiling.",
+        "localContext": "Surprise’s rapid growth and retiree appeal are matched by the necessity of specialized dental care in Arizona's heat.",
+        "nearbyAreas": [
+          "Peoria",
+          "El Mirage",
+          "Sun City West"
+        ]
+      },
+      {
+        "city": "Avondale",
+        "slug": "avondale-az",
+        "state": "AZ",
+        "content": "Legacy Dentist is proud to serve Avondale, Arizona, a rapidly expanding city with a population of approximately 90,000. Avondale’s mix of residential and commercial growth is accompanied by the extreme summer heat typical of the Valley, with temperatures often surpassing 110°F. Our dental practice offers a wide range of services, from emergency care to cosmetic dentistry, tailored to meet the needs of Avondale’s diverse community. Whether you’re a new resident or a longtime local, we’re dedicated to helping you maintain a healthy smile.",
+        "localContext": "Avondale’s growth and suburban vibe are paired with the challenges of maintaining oral health in Arizona's desert climate.",
+        "nearbyAreas": [
+          "Goodyear",
+          "Tolleson",
+          "Litchfield Park"
+        ]
+      },
+      {
+        "city": "Goodyear",
+        "slug": "goodyear-az",
+        "state": "AZ",
+        "content": "Legacy Dentist is honored to provide dental care to Goodyear, Arizona, a thriving city with a population of around 100,000. Goodyear’s master-planned communities and recreational amenities make it an attractive place to live, though the extreme summer heat—often exceeding 110°F—can pose oral health challenges. Our team offers personalized treatments, from preventive care to restorative procedures, ensuring your smile stays resilient in the desert climate. Whether you’re a sports enthusiast or a growing family, we’re here to support your dental health.",
+        "localContext": "Goodyear’s blend of modern living and outdoor activities is complemented by the need for diligent oral care in the heat.",
+        "nearbyAreas": [
+          "Avondale",
+          "Buckeye",
+          "Litchfield Park"
+        ]
+      },
+      {
+        "city": "Buckeye",
+        "slug": "buckeye-az",
+        "state": "AZ",
+        "content": "Legacy Dentist is excited to serve Buckeye, Arizona, one of the fastest-growing cities in the U.S., with a population of approximately 90,000. Buckeye’s expansive desert landscapes and new developments are contrasted by the extreme summer heat, which frequently exceeds 110°F. Our dental practice is committed to meeting the needs of Buckeye’s growing community, offering everything from routine checkups to advanced treatments. Whether you’re a longtime resident or part of the recent boom, we’re here to help you achieve a healthy, confident smile.",
+        "localContext": "Buckeye’s rapid expansion and desert surroundings highlight the importance of specialized dental care in Arizona's climate.",
+        "nearbyAreas": [
+          "Goodyear",
+          "Tolleson",
+          "Avondale"
+        ]
+      }
+    ],
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "500+",
+      "satisfaction": "98%",
+      "teamSize": "15+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "preventive-dentistry": "/images/service-preventive-dentistry.webp",
+      "cosmetic-dentistry": "/images/service-cosmetic-dentistry.webp",
+      "dental-implants": "/images/service-dental-implants.webp",
+      "root-canal-therapy": "/images/service-root-canal-therapy.webp",
+      "pediatric-dentistry": "/images/service-pediatric-dentistry.webp",
+      "emergency-dentistry": "/images/service-emergency-dentistry.webp",
+      "senior-dentistry": "/images/service-senior-dentistry.webp"
+    },
+    "servicesResponsive": {
+      "preventive-dentistry": {
+        "src": "/images/service-preventive-dentistry.webp",
+        "srcset": "/images/service-preventive-dentistry-400w.webp 400w, /images/service-preventive-dentistry-800w.webp 800w, /images/service-preventive-dentistry-1200w.webp 1200w, /images/service-preventive-dentistry.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "cosmetic-dentistry": {
+        "src": "/images/service-cosmetic-dentistry.webp",
+        "srcset": "/images/service-cosmetic-dentistry-400w.webp 400w, /images/service-cosmetic-dentistry-800w.webp 800w, /images/service-cosmetic-dentistry-1200w.webp 1200w, /images/service-cosmetic-dentistry.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "dental-implants": {
+        "src": "/images/service-dental-implants.webp",
+        "srcset": "/images/service-dental-implants-400w.webp 400w, /images/service-dental-implants-800w.webp 800w, /images/service-dental-implants-1200w.webp 1200w, /images/service-dental-implants.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "root-canal-therapy": {
+        "src": "/images/service-root-canal-therapy.webp",
+        "srcset": "/images/service-root-canal-therapy-400w.webp 400w, /images/service-root-canal-therapy-800w.webp 800w, /images/service-root-canal-therapy-1200w.webp 1200w, /images/service-root-canal-therapy.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "pediatric-dentistry": {
+        "src": "/images/service-pediatric-dentistry.webp",
+        "srcset": "/images/service-pediatric-dentistry-400w.webp 400w, /images/service-pediatric-dentistry-800w.webp 800w, /images/service-pediatric-dentistry-1200w.webp 1200w, /images/service-pediatric-dentistry.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "emergency-dentistry": {
+        "src": "/images/service-emergency-dentistry.webp",
+        "srcset": "/images/service-emergency-dentistry-400w.webp 400w, /images/service-emergency-dentistry-800w.webp 800w, /images/service-emergency-dentistry-1200w.webp 1200w, /images/service-emergency-dentistry.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "senior-dentistry": {
+        "src": "/images/service-senior-dentistry.webp",
+        "srcset": "/images/service-senior-dentistry-400w.webp 400w, /images/service-senior-dentistry-800w.webp 800w, /images/service-senior-dentistry-1200w.webp 1200w, /images/service-senior-dentistry.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
